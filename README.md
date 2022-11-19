@@ -5,9 +5,9 @@ This chat application is built using C-language.
 ### Commands to run the application
 <ol>
 <li>The server file must be executed in a command prompt window, using the command:</li>
-```
-gcc server.c -lws2_32 -o server.exe server.exe
-```
+
+>  gcc server.c -lws2_32 -o server.exe server.exe
+
 <li>The client file must be executed in a new command prompt window, using the command:</li>
 ```
 gcc client.c -lws2_32 -o client.exe client.exe
